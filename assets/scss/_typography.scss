@@ -53,7 +53,6 @@ h6 {
     margin: 0px;
 	padding: 0;
     color: $header-color;
-	text-transform: capitalize;
 	@include transition;
 }
 
@@ -67,6 +66,7 @@ h2 {
 	font-size: 45px;
 	line-height: 120%;
 	font-weight: 500;
+	color: #1C46AF;
 
 	@include breakpoint(max-xl){
 		font-size: 42px;

@@ -156,11 +156,33 @@
     }
 }
 
+.cel-surpay {
+    position: absolute;
+    top: -70%;
+    right: 0%;
+    width: 750px;
+}
+
+.textoPrincipal {
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: left;
+    width: 800px;
+    height: 450px;
+    color: #0085ff;
+}
+.resaltartextoAzul {
+    color: #1d41a8;
+}
+
+
+
 .hero-2 {
     position: relative;
     padding-top: 200px;
     z-index: 9;
     margin-bottom: -5px;
+    
 
     @include breakpoint (max-md){
         padding-top: 150px;
@@ -174,8 +196,9 @@
         @include before;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../../assets/img/hero/bg-shape.png);
+        background-image: url(../../assets/img/hero/bg_surpay.png);
         z-index: -1;
+        
     }
 
     .frame-shape {
@@ -204,11 +227,16 @@
     .bandera-chile {
         position: absolute;
         top: 35%;
-        right: 5%;
+        right: 12%;
 
         @include breakpoint (max-md){
             display: none;
         }
+    }
+    .bandera-argentina {
+        position: absolute;
+        top: 15%;
+        left: 50%;
     }
 
     
