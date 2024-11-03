@@ -37,7 +37,7 @@
 }
 
 .footer-widgets-wrapper {
-    padding: 90px 0 120px;
+    padding: 30px 0 120px;
     position: relative;
     z-index: 9;
 
@@ -70,13 +70,13 @@
             }
 
             h4 {
-                color: $white;
+                color: $black;
             }
         }
 
         .footer-content {
             p {
-                color: rgba(255, 255, 255, 0.55);
+                color: rgba(24, 23, 23, 0.55);
             }
 
             .social-icon {
@@ -158,13 +158,13 @@
                 .content {
 
                     a {
-                        color: rgba(255, 255, 255, 0.55);
+                        color: rgba(17, 17, 17, 0.55);
                         font-size: 16px;
                         font-weight: 400;
                     }
 
                     p {
-                        color: rgba(255, 255, 255, 0.55);
+                        color: rgba(25, 24, 24, 0.55);
                     }
                 }
 
@@ -205,7 +205,7 @@
 
                 a {
                     font-size: 16px;
-                    color: rgba(255, 255, 255, 0.55);
+                    color: rgba(41, 38, 38, 0.55);
                     position: relative;
                 }
 
@@ -253,7 +253,7 @@
                         font-size: 16px;
 
                         a {
-                            color: $white;
+                            color: $black;
 
                             &:hover {
                                 color: $theme-color;
@@ -286,7 +286,7 @@
        }
 
         p {
-            color: #ffffffb3;
+            color: #1b1919b3;
 
             a {
                 color: #ffffffb3;
@@ -305,7 +305,7 @@
 
             li {
                 a {
-                    color: #ffffffb3;
+                    color: #1e1d1db3;
                     background-image: linear-gradient($theme-color,$theme-color);
                     background-position: 0 95%;
                     background-repeat: no-repeat;
