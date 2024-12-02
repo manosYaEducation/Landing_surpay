@@ -306,6 +306,7 @@
     border-radius: 16px;
     text-align: center;
     padding: 40px;
+    box-shadow: 0px 0px 8px #1D41A8;
     @include transition;
 
     @include breakpoint (max-sm){
