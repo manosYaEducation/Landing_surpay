@@ -4917,6 +4917,7 @@ input.main-search-input::placeholder {
   text-align: center;
   padding: 40px;
   box-shadow: 0px 0px 8px #1D41A8;
+  max-height: 240px;
   transition: all 0.4s ease-in-out;
 }
 @media (max-width: 575px) {

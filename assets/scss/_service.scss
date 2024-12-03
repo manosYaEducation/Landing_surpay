@@ -307,6 +307,7 @@
     text-align: center;
     padding: 40px;
     box-shadow: 0px 0px 8px #1D41A8;
+    max-height: 240px;
     @include transition;
 
     @include breakpoint (max-sm){
