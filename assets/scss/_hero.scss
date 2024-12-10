@@ -161,6 +161,13 @@
     top: -70%;
     right: 0%;
     width: 750px;
+    @media (min-width: 768px) and (max-width: 1200px) {
+        display: none !important;
+    }
+
+    @media (max-width: 767px) {
+        display: none !important;
+    }
 }
 
 .textoPrincipal {
@@ -276,22 +283,28 @@
         margin-bottom: 90px;
         position: relative;
         z-index: 9;
+        padding: 0 15px; 
+        max-width: 100%;
 
         h1 {
-            @include breakpoint (max-xl){
+            @include breakpoint(max-xl) {
                 font-size: 52px;
             }
 
-            @include breakpoint (max-lg){
+            @include breakpoint(max-lg) {
                 font-size: 48px;
             }
 
-            @include breakpoint (max-md){
+            @include breakpoint(max-md) {
                 font-size: 40px;
             }
 
-            @include breakpoint (max-sm){
+            @include breakpoint(max-sm) {
                 font-size: 30px;
+            }
+
+            @include breakpoint(max-xs) {
+                font-size: 24px;
             }
         }
 
@@ -335,6 +348,29 @@
         
         img {
             @include imgw;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1200px) {
+        .frame-shape, .man-shape, .girl-shape, .bandera-chile, .bandera-argentina {
+            display: none !important;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            word-wrap: break-word;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .frame-shape, .man-shape, .girl-shape, .bandera-chile, .bandera-argentina {
+            display: none !important;
+        }
+
+        .hero-content h1 {
+            font-size: 28px;
+            word-wrap: break-word;
+            max-width: 360px;
+
         }
     }
 }
