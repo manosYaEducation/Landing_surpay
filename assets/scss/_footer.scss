@@ -35,6 +35,24 @@
         }
     }
 }
+.team-section {
+    @media (min-width: 768px) and (max-width: 1200px) {
+        display: none !important;
+    }
+
+    @media (max-width: 767px) {
+        display: none !important;
+    }
+}
+.global-partner {
+    @media (min-width: 768px) and (max-width: 1200px) {
+        display: none !important;
+    }
+
+    @media (max-width: 767px) {
+        display: none !important;
+    }
+}
 
 .footer-widgets-wrapper {
     padding: 30px 0 120px;
@@ -56,6 +74,18 @@
 
     @include breakpoint(max-sm){
         margin-bottom: -50px;
+    }
+    @media (min-width: 768px) and (max-width: 1200px) {
+        .row > .col-md-6:nth-child(2), 
+        .row > .col-md-6:nth-child(4) { 
+            display: none !important;
+        }
+    }
+    @media (max-width: 767px) {
+        .row > .col-md-6:nth-child(2), /* Enlaces */
+        .row > .col-md-6:nth-child(4) { /* Novedades */
+            display: none !important;
+        }
     }
 
     .single-footer-widget {
